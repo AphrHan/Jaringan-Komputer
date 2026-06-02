@@ -23,7 +23,6 @@ while True:
 
         print(f"{username} masuk ke room")
 
-        # Broadcast join message
         for client_addr in clients:
             if client_addr != addr:
                 notif = f"[SERVER] {username} telah bergabung ke room chat"
